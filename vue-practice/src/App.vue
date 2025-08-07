@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Chapter from './components/Chapter.vue';
+// import RefVsReactive from './components/RefVsReactive.vue';
+
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <Chapter />
+  <hr />
+  <!-- <RefVsReactive /> -->
 </template>
 
 <style scoped>
