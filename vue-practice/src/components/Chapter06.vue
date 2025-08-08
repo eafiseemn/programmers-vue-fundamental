@@ -31,7 +31,7 @@ const todos = ref<Todo[]>([
 const newTodo = ref('');
 
 const addTodo = () => {
-  // e.preventDefault();
+  // e.preventDefault(); // vue에서는 @submit.prevent로 preventDefault 불러오기 가능
   const newTodoItem = newTodo.value.trim();
 
   if(!newTodoItem) {
