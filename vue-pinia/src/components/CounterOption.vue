@@ -36,6 +36,8 @@ const { count } = storeToRefs(useCounterStore());
     <button type="button" @click="counter.decrement"> - </button>
     <hr />
     <button type="button" @click="counter.resetCounter">Reset</button>
+    <button type="button" @click="counter.$reset">Reset</button>
+    <!-- reset은 별도로 정의하지 않아도 기본 제공되는 함수가 있음 -->
   </div>
 </template>
 
